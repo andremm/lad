@@ -1,0 +1,22 @@
+
+Assembler
+
+- Fix RK to work with constants larger than 2^8.
+- Add following command line options:
+  - endianness;
+  - size of string constants;
+  - size of ints;
+  - type of lua numbers.
+- Insert line counter to improve error messages.
+- Add operator '...' to allow the definition of vararg functions.
+- Add following instructions: JNE, JG, JL, JGE, JLE and JE.
+- Add below constants/parameters if necessary:
+  - TRUE;
+  - FALSE;
+  - NIL.
+
+Disassembler
+
+- Make it work with big endian code.
+- Write '(...)' instead of '(0)' when a function is vararg.
+

@@ -1,0 +1,6 @@
+Version 0.2 - 28/03/2012
+* Ported code from Lua 5.1.4 to Lua 5.2.0
++ Support to Lua 5.2.0
+- Support to Lua 5.1.4
+Version 0.1 - 19/07/2011
+* Initial version for Lua 5.1.4
